@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>E-Commerce Gama</title>
+  </head>
+  <body>
+    <div class="titulo" id="titulo-cliente">
+      <a href="./index.html">
+        <button>Home</button>
+      </a>
+      <h1>E-Commerce Gama</h1>
+      <h3>Cadastro de Clientes</h3>
+    </div>
+    <div id="formulario">
+      <form>
+        <input type="text" name="nome" id="nome" placeholder="Nome" />
+        <input type="email" name="email" id="email" placeholder="E-mail" />
+        <input
+          type="text"
+          name="telefone"
+          id="telefone"
+          placeholder="Telefone"
+        />
+        <input type="text" name="cidade" id="cidade" placeholder="Cidade" />
+        <button onclick="cadCliente()">Cadastrar</button>
+      </form>
+    </div>
+    <div id="dados">
+      <h1>Clientes cadastrados</h1>
+      <div id="item">
+        <ul id="dados-cliente">
+          <li>Nome</li>
+          <li>E-mail</li>
+          <li>Telefone</li>
+          <li>Cidade</li>
+        </ul>
+      </div>
+    </div>
+    <div id="link-rede">
+      <a href="https://www.linkedin.com/in/johnatanosterloh/" target="black">
+        <img src="./assets/linkedin.png" alt="Linkedin" />
+      </a>
+      <a href="https://github.com/osterloh" target="black">
+        <img src="./assets/github.png" alt="GitHub" />
+      </a>
+      <a href="https://www.instagram.com/johni_osterloh/" target="black">
+        <img src="./assets/instagram.png" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/johniosterloh/" target="black">
+        <img src="./assets/facebook.png" alt="Facebook" />
+      </a>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
